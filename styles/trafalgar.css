@@ -2,6 +2,7 @@
     background: url("../img/trafalgar/figure-background.svg") 0 15px no-repeat,
                 url("../img/trafalgar/dots.svg") calc(100% - 350px) 550px no-repeat;
     font-family: 'Mulish', sans-serif;
+    font-weight: normal;
     padding-top: 15px;
     padding-bottom: 15px;
     margin-bottom: 20px;
@@ -45,8 +46,8 @@
 
 .trafalgar-cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 34px;
     margin-bottom: 70px;
 }
