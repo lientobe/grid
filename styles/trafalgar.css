@@ -66,8 +66,7 @@
 }
 
 .trafalgar-cards img {
-    height: 90px;
-
+    max-height: 90px;
 }
 
 .trafalgar-cards h3 {
